@@ -1,0 +1,7 @@
+version: "3"
+services:
+  httpd_exam005:
+    image: httpd_exam005_image
+    ports:
+      - "192.168.74.204:8084:80"
+    restart: unless-stopped
